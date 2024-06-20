@@ -40,7 +40,7 @@ function accountReducer(state = initialStateAccount, action) {
   }
 }
 
-function customerReducer(state = initialStateAccount, action) {
+function customerReducer(state = initialStateCustomer, action) {
   switch (action.type) {
     case "customer/createCustomer":
       return {

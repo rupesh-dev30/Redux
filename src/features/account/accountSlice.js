@@ -1,6 +1,6 @@
 const initialStateAccount = {
   balance: 0,
-  load: 0,
+  loan: 0,
   loanPurpose: "",
 };
 
